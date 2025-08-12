@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Arjit Sama's Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background: #f9fafb;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      line-height: 1.5;
+    }
+    a {
+      color: #0366d6;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+    }
+
+    /* Header about me */
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    header h1 {
+      font-size: 3rem;
+      font-weight: 900;
+      margin-bottom: 0.3rem;
+    }
+    header p {
+      font-size: 1.1rem;
+      color: #555;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    /* Skills Section */
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 3rem;
+      justify-content: space-between;
+    }
+    .skills-column {
+      flex: 1;
+      min-width: 300px;
+    }
+    .skills-column h2 {
+      margin-bottom: 1.2rem;
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #222;
+    }
+    .skill-item {
+      margin-bottom: 1.5rem;
+    }
+    .skill-item-header {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      margin-bottom: 0.3rem;
+    }
+    .skill-item-header img {
+      width: 28px;
+      height: 28px;
+      object-fit: contain;
+    }
+    .skill-item-header span {
+      font-weight: 600;
+      font-size: 1rem;
+      color: #222;
+    }
+    .years {
+      font-size: 0.85rem;
+      color: #666;
+      margin-left: auto;
+    }
+    .progress-bar {
+      height: 8px;
+      background: #ddd;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+    .progress {
+      height: 100%;
+      background: #4f46e5;
+    }
+
+    /* Projects Section */
+    section.projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+    .project-card {
+      background: white;
+      border-radius: 8px;
+      padding: 1.5rem;
+      box-shadow: 0 0 10px rgb(0 0 0 / 0.1);
+      display: flex;
+      flex-direction: column;
+      gap: 0.8rem;
+    }
+    .project-card img {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 6px;
+      margin-bottom: 1rem;
+      background: #ddd;
+    }
+    .project-card h3 {
+      font-weight: 700;
+      color: #222;
+    }
+    .project-card p {
+      color: #555;
+      font-size: 0.95rem;
+      flex-grow: 1;
+    }
+
+    /* Footer / Contact */
+    footer {
+      background: #222;
+      color: white;
+      padding: 1.5rem 1rem;
+      text-align: center;
+    }
+    footer .contact-links {
+      display: flex;
+      justify-content: center;
+      gap: 2.5rem;
+      margin-bottom: 0.7rem;
+      flex-wrap: wrap;
+    }
+    footer .contact-links a {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      color: white;
+      font-weight: 600;
+      font-size: 1rem;
+    }
+    footer .contact-links a svg {
+      width: 20px;
+      height: 20px;
+      fill: none;
+      stroke: white;
+    }
+    footer p {
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Arjit Sama</h1>
+      <p>Data Science @ Virginia Tech.</p>
+      <p>Aspring Data Analyst Intern</p>
+    </header>
+
+    <!-- Skills Section -->
+    <section class="skills" aria-label="Skills">
+      <!-- Left Column: Programming Languages -->
+      <div class="skills-column">
+        <h2>Programming Languages</h2>
+
+        <div class="skill-item">
+          <div class="skill-item-header">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+            <span>Python</span>
+            <span class="years">3 years</span>
+          </div>
+          <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-item-header">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL">
+            <span>SQL</span>
+            <span class="years">2 years</span>
+          </div>
+          <div class="progress-bar"><div class="progress" style="width: 50%;"></div></div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-item-header">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+            <span>Java</span>
+            <span class="years">2 years</span>
+          </div>
+          <div class="progress-bar"><div class="progress" style="width: 50%;"></div></div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-item-header">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+            <span>JavaScript</span>
+            <span class="years">1 year</span>
+          </div>
+          <div class="progress-bar"><div class="progress" style="width: 25%;"></div></div>
+        </div>
+      </div>
+
+      <!-- Right Column: Developer Tools -->
+      <div class="skills-column">
+        <h2>Developer Tools</h2>
+
+        <div class="skill-item">
+          <div class="skill-item-header">
+            <img src="https://cdn-icons-png.flaticon.com/512/732/732220.png" alt="Excel">
+            <span>Excel</span>
+            <span class="years">4 years</span>
+          </div>
+          <div class="progress-bar"><div class="progress" style="width: 100%;"></div></div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-item-header">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code">
+            <span>VS Code</span>
+            <span class="years">2 years</span>
+          </div>
+          <div class="progress-bar"><div class="progress" style="width: 50%;"></div></div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-item-header">
+            <img src="https://cdn.worldvectorlogo.com/logos/tableau-software.svg" alt="Tableau">
+            <span>Tableau</span>
+            <span class="years">1.5 years</span>
+          </div>
+          <div class="progress-bar"><div class="progress" style="width: 37.5%;"></div></div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-item-header">
+            <img src="https://cdn-icons-png.flaticon.com/512/732/732221.png" alt="Power BI">
+            <span>Power BI</span>
+            <span class="years">0.5  years</span>
+          </div>
+          <div class="progress-bar"><div class="progress" style="width: 12.5%;"></div></div>
+        </div>
+      </div>
+    </section>
+
+<!-- Projects Section -->
+<!-- Projects Section -->
+<section class="projects" aria-label="Projects">
+  <a href="https://github.com/arjitsama/stock-predictor" target="_blank" rel="noopener noreferrer" class="project-card">
+    <img src="stockapp.png" alt="Stock Predictor App" />
+    <h3>Stock Predictor App</h3>
+    <p>Developed a predictive model using Python and Streamlit to forecast stock prices for multiple companies.</p>
+  </a>
+  <a href="https://github.com/arjitsama/portfolio-website" target="_blank" rel="noopener noreferrer" class="project-card">
+    <img src="portfolio.png" alt="Portfolio Website" />
+    <h3>Portfolio Website</h3>
+    <p>Designed and developed a responsive portfolio website to showcase projects and skills using HTML, CSS, and JavaScript.</p>
+  </a>
+  <a href="https://github.com/arjitsama/sales-dashboard" target="_blank" rel="noopener noreferrer" class="project-card">
+    <img src="sales-dashboard.png" alt="Sales Dashboard (In Progress)" />
+    <h3>Sales Dashboard (In Progress)</h3>
+    <p>Creating interactive dashboards to visualize sales data and key performance indicators.</p>
+  </a>
+</section>
+
+  </div>
+
+  <footer>
+    <div class="contact-links" aria-label="Contact Links">
+      <a href="mailto:arjitsama@gmail.com" aria-label="Email">
+        <!-- Email icon -->
+        <svg stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 4h16v16H4z" fill="none" />
+          <polyline points="22,6 12,13 2,6" />
+        </svg>
+        arjitsama@gmail.com
+      </a>
+      <a href="https://github.com/arjitsama" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+        <!-- GitHub icon -->
+        <svg stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.5.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.71-2.78.6-3.37-1.34-3.37-1.34-.46-1.17-1.12-1.48-1.12-1.48-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.54 2.36 1.1 2.94.84.09-.65.35-1.1.63-1.35-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0112 6.8c.85.004 1.7.11 2.5.32 1.9-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.02 1.59 1.02 2.68 0 3.83-2.34 4.68-4.57 4.93.36.31.68.91.68 1.83 0 1.32-.01 2.39-.01 2.71 0 .26.18.58.69.48A10.01 10.01 0 0022 12c0-5.52-4.48-10-10-10z" />
+        </svg>
+        GitHub
+      </a>
+      <a href="https://linkedin.com/in/arjitsama" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+        <!-- LinkedIn icon -->
+        <svg stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z" />
+          <rect x="2" y="9" width="4" height="12" />
+          <circle cx="4" cy="4" r="2" />
+        </svg>
+        LinkedIn
+      </a>
+    </div>
+    <p>© 2024 Arjit Sama</p>
+  </footer>
+</body>
+</html>
