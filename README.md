@@ -5,11 +5,7 @@
 
 A personal portfolio showcasing my skills, projects, and contact information.
 
----
 
-## 🌐 Live Demo
-Once deployed, you can view the site here:  
-[https://yourusername.github.io/portfolio/](https://yourusername.github.io/portfolio/)
 
 ---
 
@@ -18,6 +14,12 @@ Once deployed, you can view the site here:
 - **Skills Section** — Displays programming languages and developer tools with experience levels.
 - **Projects Showcase** — Highlights key projects with images, descriptions, and links to GitHub repositories.
 - **Contact Section** — Quick access to email, GitHub, and LinkedIn profiles.
+
+---
+
+## 🌐 Live Demo
+Once deployed, you can view the site here:  
+[https://yourusername.github.io/portfolio/](https://yourusername.github.io/portfolio/)
 
 ---
 
