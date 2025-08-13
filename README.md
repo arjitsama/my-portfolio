@@ -20,6 +20,7 @@ Once deployed, you can view the site here:
 ---
 
 ## 🛠️ Built With
+
 - HTML5
 - CSS3
 
@@ -37,9 +38,3 @@ cd arjitsama.github.io
 ```bash
 Simply double-click index.html to open the portfolio in your default web browser.
 ```
----
-
-## 📬 Contact
-- Email: [arjitsama@gmail.com](mailto:arjitsama@gmail.com)
-- [LinkedIn](https://linkedin.com/in/arjitsama)
-- [GitHub](https://github.com/arjitsama)
