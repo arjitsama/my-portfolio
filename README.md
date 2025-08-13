@@ -19,7 +19,7 @@ A personal portfolio showcasing my skills, projects, and contact information.
 
 ## 🌐 Live Demo
 Once deployed, you can view the site here:  
-[https://yourusername.github.io/portfolio/](https://yourusername.github.io/portfolio/)
+[https://yourusername.github.io/portfolio/](https://arjitsama.github.io/portfolio/)
 
 ---
 
