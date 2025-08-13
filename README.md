@@ -13,6 +13,14 @@ Once deployed, you can view the site here:
 
 ---
 
+## 📌 Features
+- **Responsive Design** — Works seamlessly on desktop, tablet, and mobile devices.
+- **Skills Section** — Displays programming languages and developer tools with experience levels.
+- **Projects Showcase** — Highlights key projects with images, descriptions, and links to GitHub repositories.
+- **Contact Section** — Quick access to email, GitHub, and LinkedIn profiles.
+
+---
+
 ## 📸 Screenshot
 ![Portfolio Screenshot](portfolio.png)  
 *(Replace with an actual screenshot of your site)*
