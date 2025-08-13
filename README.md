@@ -25,7 +25,7 @@ Once deployed, you can view the site here:
 
 ## 📸 Screenshot
 ![Portfolio Screenshot](portfolio.png)  
-*(Replace with an actual screenshot of your site)*
+A snippet of my portfolio.
 
 ---
 
